@@ -110,7 +110,7 @@ int main() {
     // Get the secret constant term 'c'
     long long secret = generate_secret(x, y, k);
 
-    cout << "The constant term (secret) is: " << secret << endl;
+    cout << "The constant term (secret) is: " << -1*secret << endl;
 
     // Clean up
     delete[] x;
